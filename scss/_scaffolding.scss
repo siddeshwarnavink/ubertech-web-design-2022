@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.ttf');
+    font-weight: normal;
+}
+
+body {
+    background-color: $background-color;
+    color: $font-color;
+    font-family: $font-family;
+}

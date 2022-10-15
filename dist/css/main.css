@@ -297,5 +297,12 @@ template {
 [hidden] {
   display: none; }
 
+@font-face {
+  font-family: 'Roboto';
+  src: url("../font/Roboto-Regular.ttf");
+  font-weight: normal; }
+
 body {
-  background-color: black; }
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif; }

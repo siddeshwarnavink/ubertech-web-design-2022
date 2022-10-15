@@ -1,5 +1,4 @@
 @import "./lib/normalize";
 
-body {
-    background-color: black;
-}
+@import "./variables";
+@import "./scaffolding";
