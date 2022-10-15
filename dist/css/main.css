@@ -458,3 +458,34 @@ button.btn {
 .mainProject .mainProject__caption p {
   text-align: center;
   font-size: 1.3em; }
+
+.mainProject .mainProject__grid {
+  display: flex;
+  padding: calc(6px * 5) 0;
+  margin: auto;
+  max-width: 70%; }
+  .mainProject .mainProject__grid .mainProject-grid__card {
+    border-radius: 15px;
+    background-color: #0D0D10;
+    margin-left: calc(6px * 5); }
+    .mainProject .mainProject__grid .mainProject-grid__card .mainProject-grid-card__container {
+      padding: calc(6px * 4); }
+      .mainProject .mainProject__grid .mainProject-grid__card .mainProject-grid-card__container .mainProject-grid-card-caption,
+      .mainProject .mainProject__grid .mainProject-grid__card .mainProject-grid-card__container .mainProject-grid-card-subcaption {
+        display: block; }
+      .mainProject .mainProject__grid .mainProject-grid__card .mainProject-grid-card__container .mainProject-grid-card-caption {
+        font-weight: bold;
+        font-size: 1.6em; }
+      .mainProject .mainProject__grid .mainProject-grid__card .mainProject-grid-card__container .mainProject-grid-card-subcaption {
+        color: #777777;
+        padding: calc(6px * 1) 0; }
+      .mainProject .mainProject__grid .mainProject-grid__card .mainProject-grid-card__container .mainProject-grid-card__tags {
+        display: flex;
+        margin-top: calc(6px * 1); }
+        .mainProject .mainProject__grid .mainProject-grid__card .mainProject-grid-card__container .mainProject-grid-card__tags span {
+          display: block;
+          background-color: black;
+          padding: calc(6px * 1);
+          font-size: .8em;
+          margin-right: calc(6px * 1);
+          text-transform: lowercase; }

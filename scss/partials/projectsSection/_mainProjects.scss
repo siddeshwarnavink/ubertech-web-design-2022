@@ -3,4 +3,50 @@
         text-align: center;
         font-size: 1.3em;
     }
+
+    .mainProject__grid {
+        display: flex;
+        padding: $unit-5 0;
+        margin: auto;
+        max-width: 70%;
+
+        .mainProject-grid__card {
+            border-radius: $border-raidus;
+            background-color: $card-background;
+            margin-left: $unit-5;
+
+            .mainProject-grid-card__container {
+                padding: $unit-4;
+
+                .mainProject-grid-card-caption,
+                .mainProject-grid-card-subcaption {
+                    display: block;
+                }
+
+                .mainProject-grid-card-caption {
+                    font-weight: bold;
+                    font-size: 1.6em;
+                }
+
+                .mainProject-grid-card-subcaption {
+                    color: $disable-color;
+                    padding: $unit-1 0;
+                }
+
+                .mainProject-grid-card__tags {
+                    display: flex;
+                    margin-top: $unit-1;
+
+                    span {
+                        display: block;
+                        background-color: $background-color;
+                        padding: $unit-1;
+                        font-size: .8em;
+                        margin-right: $unit-1;
+                        text-transform: lowercase;
+                    }
+                }
+            }
+        }
+    }
 }
