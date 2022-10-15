@@ -428,3 +428,29 @@ button.btn {
     padding: 0 calc(6px * 5); }
     .aboutSection .aboutSection__picture img {
       border-radius: 50%; }
+
+.skillsSection {
+  padding: calc(6px * 14) 12rem; }
+  .skillsSection .caption {
+    text-align: center; }
+  .skillsSection .skillsSection__grid {
+    display: flex;
+    justify-content: space-around;
+    padding: calc(6px * 12) 0;
+    margin: 0 auto;
+    max-width: 70%; }
+    .skillsSection .skillsSection__grid .skillsSection-grid__item {
+      text-align: center;
+      background-color: #0D0D10;
+      padding: calc(6px * 10) calc(6px * 5);
+      border-radius: 15px;
+      margin-right: calc(6px * 4); }
+      .skillsSection .skillsSection__grid .skillsSection-grid__item h3 {
+        font-size: 1.5em;
+        font-weight: bolder; }
+      .skillsSection .skillsSection__grid .skillsSection-grid__item p {
+        color: #777777;
+        font-size: 1.2em;
+        margin: 0 auto;
+        max-width: 70%;
+        line-height: 2em; }
