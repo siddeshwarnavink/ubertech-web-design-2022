@@ -1,0 +1,43 @@
+.sideProject {
+    padding: $unit-18 $page-laterial-padding;
+    margin: 0 auto;
+    max-width: 60%;
+
+    .sideProject__grid {
+        padding: $unit-10 0;
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: $unit-6;
+        column-gap: $unit-4;
+
+        .sideProject-grid__card {
+            padding: $unit-2 $unit-5;
+            background-color: $card-background;
+            border-radius: $border-raidus;
+
+            a {
+                text-decoration: none;
+                color: $font-color;
+                display: flex;
+                outline: none;
+                justify-content: space-between;
+                padding: $unit-2;
+
+                .sideProject-grid-card__content {
+                    .sideProject-grid-card__caption {
+                        font-weight: bolder;
+                    }
+
+                    .sideProject-grid-card__subcaption {
+                        color: $disable-color;
+                    }
+                }
+
+                img {
+                    display: block;
+                }
+            }
+        }
+    }
+
+}

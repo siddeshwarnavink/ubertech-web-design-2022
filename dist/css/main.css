@@ -489,3 +489,31 @@ button.btn {
           font-size: .8em;
           margin-right: calc(6px * 1);
           text-transform: lowercase; }
+
+.sideProject {
+  padding: calc(6px * 18) 12rem;
+  margin: 0 auto;
+  max-width: 60%; }
+  .sideProject .sideProject__grid {
+    padding: calc(6px * 10) 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: calc(6px * 6);
+    column-gap: calc(6px * 4); }
+    .sideProject .sideProject__grid .sideProject-grid__card {
+      padding: calc(6px * 2) calc(6px * 5);
+      background-color: #0D0D10;
+      border-radius: 15px; }
+      .sideProject .sideProject__grid .sideProject-grid__card a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        outline: none;
+        justify-content: space-between;
+        padding: calc(6px * 2); }
+        .sideProject .sideProject__grid .sideProject-grid__card a .sideProject-grid-card__content .sideProject-grid-card__caption {
+          font-weight: bolder; }
+        .sideProject .sideProject__grid .sideProject-grid__card a .sideProject-grid-card__content .sideProject-grid-card__subcaption {
+          color: #777777; }
+        .sideProject .sideProject__grid .sideProject-grid__card a img {
+          display: block; }
