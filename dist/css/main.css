@@ -517,3 +517,15 @@ button.btn {
           color: #777777; }
         .sideProject .sideProject__grid .sideProject-grid__card a img {
           display: block; }
+
+.workedBrand {
+  background-color: #0D0D10;
+  padding: calc(6px * 10) 0; }
+  .workedBrand .workedBrand__logos {
+    display: flex;
+    max-width: 65%;
+    margin: 0 auto;
+    padding: calc(6px * 10) 0; }
+    .workedBrand .workedBrand__logos img {
+      display: block;
+      margin-right: calc(6px * 10); }

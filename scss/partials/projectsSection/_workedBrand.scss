@@ -1,0 +1,16 @@
+.workedBrand {
+    background-color: $card-background;
+    padding: $unit-10 0;
+
+    .workedBrand__logos {
+        display: flex;
+        max-width: 65%;
+        margin: 0 auto;
+        padding: $unit-10 0;
+
+        img {
+            display: block;
+            margin-right: $unit-10;
+        }
+    }
+}
