@@ -3,5 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "author": "Siddeshwar"
+  "author": "Siddeshwar",
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "node-sass": "^7.0.3",
+    "serve": "^14.0.1"
+  },
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run serve\" \"npm run watch\"",
+    "watch": "node-sass -w scss/ -o dist/css/ --recursive",
+    "serve": "serve dist/"
+  }
 }
