@@ -302,6 +302,9 @@ template {
   src: url("../font/Roboto-Regular.ttf");
   font-weight: normal; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   background-color: black;
   color: white;

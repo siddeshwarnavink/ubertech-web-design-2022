@@ -4,6 +4,10 @@
     font-weight: normal;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: $background-color;
     color: $font-color;
