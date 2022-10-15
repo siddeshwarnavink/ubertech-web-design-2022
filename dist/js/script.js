@@ -6,6 +6,7 @@ const sections = [
     document.getElementById("home"),
     document.getElementById("about"),
     document.getElementById("works"),
+    document.getElementById("contact"),
 ];
 
 // Helper functions

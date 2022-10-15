@@ -1,0 +1,61 @@
+.contact-cover {
+    background: url('../images/contact_cover.png') no-repeat center center fixed;
+}
+
+.contact-wrapper {
+    position: relative;
+
+    .contact-backdrop {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 50;
+        background: transparentize($color: $background-color, $amount: 0.3);
+    }
+
+    .contact {
+        position: relative;
+        z-index: 100;
+        padding: $unit-18 $page-laterial-padding;
+        display: flex;
+        justify-content: space-between;
+
+        .contact__text {
+            margin: auto 0;
+            
+            .contact-text__caption,
+            .contact-text__subcaption {
+                display: block;
+            }
+
+            .contact-text__caption {
+                font-weight: bolder;
+                font-size: 2em;
+            }
+
+            .contact-text__subcaption {
+                margin-top: $unit-3;
+                font-size: 1.2em;
+                line-height: 2rem;
+            }
+
+            .contact__socialMedias {
+                padding: $unit-2 0;
+
+                img {
+                    width: 35px;
+                    margin-right: $unit-2;
+                }
+            }
+        }
+
+        .contact__form {
+            padding: $unit-6;
+            background-color: $background-color;
+            border-radius: $border-raidus;
+            width: 35%;
+        }
+    }
+}

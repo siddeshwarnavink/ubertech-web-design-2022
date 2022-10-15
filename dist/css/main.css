@@ -344,6 +344,23 @@ button.btn {
   margin: 0 auto;
   margin-top: calc(6px * 2); }
 
+.form-control {
+  margin-bottom: calc(6px * 3); }
+  .form-control label,
+  .form-control input,
+  .form-control textarea {
+    display: block;
+    width: 100%; }
+  .form-control input, .form-control textarea {
+    background-color: #333;
+    font-size: 1.2em;
+    border: 0;
+    border-radius: 15px;
+    color: white;
+    padding: calc(6px * 2);
+    outline: none;
+    resize: none; }
+
 .toolbar {
   padding: calc(6px * 6) 12rem;
   display: flex;
@@ -529,3 +546,45 @@ button.btn {
     .workedBrand .workedBrand__logos img {
       display: block;
       margin-right: calc(6px * 10); }
+
+.contact-cover {
+  background: url("../images/contact_cover.png") no-repeat center center fixed; }
+
+.contact-wrapper {
+  position: relative; }
+  .contact-wrapper .contact-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.7); }
+  .contact-wrapper .contact {
+    position: relative;
+    z-index: 100;
+    padding: calc(6px * 18) 12rem;
+    display: flex;
+    justify-content: space-between; }
+    .contact-wrapper .contact .contact__text {
+      margin: auto 0; }
+      .contact-wrapper .contact .contact__text .contact-text__caption,
+      .contact-wrapper .contact .contact__text .contact-text__subcaption {
+        display: block; }
+      .contact-wrapper .contact .contact__text .contact-text__caption {
+        font-weight: bolder;
+        font-size: 2em; }
+      .contact-wrapper .contact .contact__text .contact-text__subcaption {
+        margin-top: calc(6px * 3);
+        font-size: 1.2em;
+        line-height: 2rem; }
+      .contact-wrapper .contact .contact__text .contact__socialMedias {
+        padding: calc(6px * 2) 0; }
+        .contact-wrapper .contact .contact__text .contact__socialMedias img {
+          width: 35px;
+          margin-right: calc(6px * 2); }
+    .contact-wrapper .contact .contact__form {
+      padding: calc(6px * 6);
+      background-color: black;
+      border-radius: 15px;
+      width: 35%; }
