@@ -454,3 +454,7 @@ button.btn {
         margin: 0 auto;
         max-width: 70%;
         line-height: 2em; }
+
+.mainProject .mainProject__caption p {
+  text-align: center;
+  font-size: 1.3em; }
