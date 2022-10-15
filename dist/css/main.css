@@ -378,3 +378,36 @@ button.btn {
 .toolbar-spacer {
   height: calc(6px * 10);
   margin-top: calc(6px * 9); }
+
+.hero-cover {
+  background: url("../images/hero_cover.png") no-repeat center center fixed; }
+
+.hero-wrapper {
+  position: relative; }
+  .hero-wrapper .hero-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background: rgba(0, 0, 0, 0.7); }
+  .hero-wrapper .hero {
+    position: relative;
+    z-index: 100;
+    padding: calc(6px * 18) 12rem; }
+    .hero-wrapper .hero .hero__content .hero-content__caption,
+    .hero-wrapper .hero .hero__content .hero-content__subcaption {
+      display: block; }
+    .hero-wrapper .hero .hero__content .hero-content__caption {
+      font-size: 4em;
+      font-weight: bolder; }
+    .hero-wrapper .hero .hero__content .hero-content__subcaption {
+      font-size: 2em;
+      font-weight: bold;
+      padding: calc(6px * 3) 0; }
+    .hero-wrapper .hero .hero__action {
+      margin-top: calc(6px * 6); }
+    .hero-wrapper .hero .hero__arrow {
+      text-align: center;
+      margin-top: calc(6px * 20); }
