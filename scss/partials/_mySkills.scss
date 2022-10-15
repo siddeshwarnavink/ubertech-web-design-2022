@@ -1,0 +1,36 @@
+.skillsSection {
+    padding: $unit-14 $page-laterial-padding;
+
+    .caption {
+        text-align: center;
+    }
+
+    .skillsSection__grid {
+        display: flex;
+        justify-content: space-around;
+        padding: $unit-12 0;
+        margin: 0 auto;
+        max-width: 70%;
+
+        .skillsSection-grid__item {
+            text-align: center;
+            background-color: $card-background;
+            padding: $unit-10 $unit-5;
+            border-radius: $border-raidus;
+            margin-right: $unit-4;
+
+            h3 {
+                font-size: 1.5em;
+                font-weight: bolder;
+            }
+
+            p {
+                color: $disable-color;
+                font-size: 1.2em;
+                margin: 0 auto;
+                max-width: 70%;
+                line-height: 2em;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.toolbar {
+    padding: $unit-6 $page-laterial-padding;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: transparentize($color: $background-color, $amount: 0.3);
+    z-index: 200;
+
+    .toolbar__logo h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .toolbar__spacer {
+        flex: .6;
+    }
+
+    .toolbar__nav {
+        display: flex;
+
+        a.toolbar-nav__link {
+            display: block;
+            text-decoration: none;
+            font-size: 1.2em;
+            color: $font-color;
+            padding: $unit-1 $unit-3;
+            transition: all 500ms ease-out;
+
+            .toolbar-nav__highlighter {
+                padding: $unit-half;
+                margin-top: $unit-half;
+                border-radius: $border-raidus;
+                opacity: .5;
+            }
+
+            &.active {
+                font-weight: bold;
+
+                .toolbar-nav__highlighter {
+                    background: $primary-color;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.toolbar-spacer {
+    height: $unit-10;
+    margin-top: $unit-9;
+}

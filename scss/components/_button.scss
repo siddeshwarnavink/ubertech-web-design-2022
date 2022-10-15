@@ -1,0 +1,17 @@
+a.btn,
+button.btn {
+    padding: $unit-2 $unit-4;
+    color: $font-color;
+    background: $primary-color;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: $border-raidus;
+    transition: background 1s ease-out;
+
+    &:hover {
+        background: $accent-hover-color;
+    }
+}

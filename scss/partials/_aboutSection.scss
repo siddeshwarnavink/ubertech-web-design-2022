@@ -1,0 +1,20 @@
+.aboutSection {
+    padding: $unit-18 $page-laterial-padding;
+    display: flex;
+
+    .aboutSection__content {
+        margin: auto 0;
+        p {
+            font-size: 1.4em;
+            width: 75%;
+            line-height: 2em;
+        }
+    }
+
+    .aboutSection__picture {
+        padding: 0 $unit-5;
+        img {
+            border-radius: 50%;
+        }
+    }
+}

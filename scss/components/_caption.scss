@@ -1,0 +1,25 @@
+.caption {
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .underline {
+        padding: $unit-half;
+        border-radius: $border-raidus;
+        background: $primary-color;
+        width: 50px;
+        margin-top: $unit-2;
+    }
+
+    &.center {
+        h1 {
+            text-align: center;
+        }
+
+        .underline  {
+            margin: 0 auto;
+            margin-top: $unit-2;
+        }
+    }
+}

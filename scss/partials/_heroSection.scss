@@ -1,0 +1,50 @@
+.hero-cover {
+    background: url('../images/hero_cover.png') no-repeat center center fixed;
+}
+
+.hero-wrapper {
+    position: relative;
+
+    .hero-backdrop {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 50;
+        background: transparentize($color: $background-color, $amount: 0.3);
+    }
+
+    .hero {
+        position: relative;
+        z-index: 100;
+        padding: $unit-18 $page-laterial-padding;
+
+        .hero__content {
+            .hero-content__caption,
+            .hero-content__subcaption {
+                display: block;
+            }
+
+            .hero-content__caption {
+                font-size: 4em;
+                font-weight: bolder;
+            }
+
+            .hero-content__subcaption {
+                font-size: 2em;
+                font-weight: bold;
+                padding: $unit-3 0;
+            }
+        }
+
+        .hero__action {
+            margin-top: $unit-6;
+        }
+
+        .hero__arrow {
+            text-align: center;
+            margin-top: $unit-20;
+        }
+    }
+}
