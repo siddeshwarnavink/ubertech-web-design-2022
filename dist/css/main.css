@@ -411,3 +411,17 @@ button.btn {
     .hero-wrapper .hero .hero__arrow {
       text-align: center;
       margin-top: calc(6px * 20); }
+
+.aboutSection {
+  padding: calc(6px * 18) 12rem;
+  display: flex; }
+  .aboutSection .aboutSection__content {
+    margin: auto 0; }
+    .aboutSection .aboutSection__content p {
+      font-size: 1.4em;
+      width: 75%;
+      line-height: 2em; }
+  .aboutSection .aboutSection__picture {
+    padding: 0 calc(6px * 5); }
+    .aboutSection .aboutSection__picture img {
+      border-radius: 50%; }
